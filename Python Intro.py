@@ -7,3 +7,15 @@ print("Hello world")
 print()
 print("Zag je deze lege regel?")
 print("een lege regel \nin het midden van een string")
+
+#Print oefening
+name = input("Wat is je naam?")
+print("Hoi")
+print(name)
+
+#Rekenen met Python
+print("Nummers toevoegen")
+x = 532 + 12
+print("Nummers verdelen")
+y = x /0
+print("Ik kan rekenen haha")
