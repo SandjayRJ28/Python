@@ -25,3 +25,23 @@ print("Hallo, " + Voor_naam + " " + Achter_naam)
 V_naam = input("Vul hier jou naam is ")
 A_naam = input("Vul hier jou Achternaam in ")
 print("Hallo, " + V_naam.capitalize() + " " + A_naam.capitalize())
+
+#String formatting
+output = "Hallo, " + V_naam + " " + A_naam
+output = "Hallo, {} {} ".format(V_naam, A_naam)
+output = "Hallo, {0} {1} ".format(V_naam, A_naam)
+
+#Deze formatting is alleen in Python 3 beschikbaar
+output = f'Hallo,  {V_naam} {A_naam}'
+
+#String formatting Part 2
+V2_naam = "Sandjay"
+A2_naam = "Jethoe"
+output = "Hallo, " + V2_naam + " " + A2_naam
+output2 = "Hallo, {} {} ".format(V2_naam, A2_naam)
+output3 = "Hallo, {0}, {1} ".format(V2_naam, A2_naam)
+output4 = f'Hallo,  {V2_naam} {A2_naam}'
+print(output)
+print(output2)
+print(output3)
+print(output4)
