@@ -91,3 +91,17 @@ if Land3.lower() == "Nederland":
 else:
     BTW4 = 0
 print(BTW4)
+
+#Complexe IF statements met een AND Hierbij moeten de beide waarde dezelfde boolean bevatten
+#Verschil tussen nested IF statement of AND statements
+studiepunten = float(input("Wat is je hoogste behaalde score? "))
+studiepuntenlaag = float(input("Wat is je laagst behaalde score? "))
+
+if studiepunten >= .50 and studiepuntenlaag >= .40:
+       Diploma = True
+else:
+        Diploma = False
+
+#Later in je code kan je de boolean variable terug roepen met een IF statement
+if Diploma:
+    print("Je mag over! ")
