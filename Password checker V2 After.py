@@ -19,10 +19,11 @@ while check:
         break
     elif not re.search("[$#@]", wachtwoord):
         break
+#Wanneer de checks compleet is laat het zien dat de wachtwoord compleet is.
     else:
         print("Wachtwoord is sterk! ")
         check = False
         break
-
+#Als een van de checks niet compleet is geeft het aan dat het wachtwoord niet sterk genoeg is.
 if check:
     print("Wachtwoord is niet sterk genoeg ")
